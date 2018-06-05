@@ -815,4 +815,4 @@ unicus.on('message', function(message) {
 
 });
 
-unicus.login("process.env.UNICUS_TOKEN");
+unicus.login(process.env.UNICUS_TOKEN);
