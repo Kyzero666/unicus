@@ -6,13 +6,6 @@ const prefix = '-';
 let cooldown = new Set();
 let cdsec = 5;
 
-//    const blacklisted = [ID1, ID2, ID3]
-//bot.on('message', message => {
-//for (var i in blacklisted) {
-//if(message.author.id === blacklisted[i]) return;
-//}
-//});﻿
-
 unicus.on('ready', function() {
     console.log('Unicus started.');
 });
@@ -66,9 +59,6 @@ unicus.on('message', function(message) {
         case 'PASS':
             message.channel.send('**2404** *april2018*').then(message => {message.delete(60000)});
             break;
-//        case 'DISCORD':
-//            message.channel.send('https://bit.do/nexusgroup');
-//            break;
         case 'RULES':
             message.channel.send(['','```md','1. Contribution Points','2. Friendly & be nice to others','3. NO SCAM','4. Respect each others','5. Only "English" in guild chat','6. Be proud of our guild','```']).then(message => {message.delete(60000)});
             break;
