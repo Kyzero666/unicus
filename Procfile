@@ -1,1 +1,1 @@
-worker node unicus.js
+worker: node unicus.js
